@@ -4,7 +4,7 @@ Requires=run-media-lray-GNUMED_BACKUP_AC.mount
 After=run-media-lray-GNUMED_BACKUP_AC.mount
 
 [Service]
-ExecStart=/home/lray/bin/trigger-script.sh
+ExecStart=/usr/sbin/gm-backup
 
 [Install]
 WantedBy=run-media-lray-GNUMED_BACKUP_AC.mount
