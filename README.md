@@ -1,0 +1,1 @@
+# gnumed-backup-conf
